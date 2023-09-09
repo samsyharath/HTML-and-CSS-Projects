@@ -59,6 +59,11 @@ h1 {
 /*----------- HOVER, TRANSLATE & TRANSFORM EFFECTS -----*/
 .container .squares:nth-child(-n+4):hover {
     background-image: url("../images/icons/icons2.png");
+    transform: scale(.5);
+    animation-name: race;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.25, 0.2, 0.3, 2);
 }
 
 .squares:nth-child(1):hover {
